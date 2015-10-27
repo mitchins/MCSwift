@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/mitchcurrie/Documents/Development/MCSwift/build/Release-iphoneos/MCSwift.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/mitchcurrie/Documents/Development/MCSwift/build/MCSwift.build/Release-iphoneos/MCSwift.build/unextended-module.modulemap',
+    }]
+  }]
+}

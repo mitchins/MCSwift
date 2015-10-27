@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import MCSwift
 
 class UIKit_Tests: XCTestCase {
 

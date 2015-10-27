@@ -1,0 +1,65 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V12CoreGraphics7CGFloat", ""]
+- ["PSs10Comparable", ""]
+- ["Sb", ""]
+- ["V12CoreGraphics7CGFloat", "squashBetween"]
+- ["PSs10Comparable", "squashBetween"]
+- ["Sb", "toggle"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "max"
+- !private ">"
+- !private "min"
+- "Comparable"
+- !private "<"
+- "Bool"
+- "CGFloat"
+- !private "!"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "toggle"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "CGFloat"]
+- ["V12CoreGraphics7CGFloat", "squashBetween"]
+- ["PSs10Comparable", "Self"]
+- !private ["PSs10Comparable", "max"]
+- !private ["PSs10Comparable", "min"]
+- ["PSs10Comparable", "squashBetween"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "Self"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "max"]
+- !private ["PSs9Equatable", "min"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- "PSs10Comparable"
+- !private "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs8Hashable"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/mitchcurrie/Documents/Development/MCSwift/MCSwift/MCSwift.h"
+- "/Users/mitchcurrie/Documents/Development/MCSwift/build/MCSwift.build/Release-iphoneos/MCSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "9d8795cf7fe26bd2278305722c22691f"

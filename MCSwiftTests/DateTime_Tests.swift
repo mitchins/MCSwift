@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import MCSwift
 
 class DateTime_Tests: XCTestCase {
     

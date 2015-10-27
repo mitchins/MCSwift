@@ -1,0 +1,10 @@
+framework module MCSwift {
+  umbrella header "MCSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module MCSwift.__Swift {
+    exclude header "MCSwift-Swift.h"
+}

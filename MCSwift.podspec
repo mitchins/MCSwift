@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MCSwift"
-  s.version      = "0.0.2"
+  s.version      = "0.1.0"
   s.summary      = "A collection of simple utilities and extensions for Swift."
   s.description  = <<-DESC
                    A longer description of MCSwift in Markdown format.
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
   # s.social_media_url   = "http://twitter.com/Mitch Currie"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  
+
   s.platform = :ios
   s.ios.deployment_target = '8.0'
 
@@ -70,5 +70,6 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.requires_arc = true
-
+  s.pod_target_xcconfig     = { 'CLANG_CXX_LANGUAGE_STANDARD' => 'compiler-default',
+                                'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
 end

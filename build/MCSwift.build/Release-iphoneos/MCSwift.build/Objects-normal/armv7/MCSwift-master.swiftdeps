@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "a0ba3a17ded9713de39e6543f1df5fbb"
+build_time: [499217413, 516518000]
+inputs: 
+	"/Users/mitchcurrie/Documents/Development/MCSwift/MCSwift/Number.swift": [499137865, 0]
+	"/Users/mitchcurrie/Documents/Development/MCSwift/MCSwift/UIKit.swift": [499137864, 0]
+	"/Users/mitchcurrie/Documents/Development/MCSwift/MCSwift/DateTime.swift": [499138969, 0]

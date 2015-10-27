@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6NSDate", ""]
+- ["Sd", ""]
+- ["CSo15NSDateFormatter", ""]
+- ["CSo6NSDate", "addDays"]
+- ["CSo6NSDate", "daysSinceEpoch"]
+- ["Sd", "minutes"]
+- ["Sd", "hours"]
+- ["Sd", "days"]
+- ["CSo15NSDateFormatter", "init"]
+- ["CSo15NSDateFormatter", "init"]
+provides-dynamic-lookup:
+- "daysSinceEpoch"
+- "addDays"
+depends-top-level:
+- !private "/"
+- "NSDate"
+- !private "+"
+- "BooleanLiteralType"
+- "Int"
+- "Bool"
+- "NSDateFormatter"
+- "NSTimeInterval"
+- !private "NSCalendar"
+- "Int64"
+- !private "NSCalendarOptions"
+- !private "NSDateComponents"
+- "String"
+- !private "NSTimeZone"
+- "NSDateFormatterStyle"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "Int64"]
+- !private ["PSs16AbsoluteValuable", "days"]
+- !private ["PSs16AbsoluteValuable", "hours"]
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs16AbsoluteValuable", "minutes"]
+- !private ["PSs9AnyObject", "NSCalendar"]
+- !private ["PSs9AnyObject", "NSCalendarOptions"]
+- !private ["PSs9AnyObject", "NSDateComponents"]
+- !private ["PSs9AnyObject", "NSTimeInterval"]
+- !private ["PSs9AnyObject", "NSTimeZone"]
+- ["PSs9AnyObject", "addDays"]
+- !private ["PSs9AnyObject", "currentCalendar"]
+- !private ["PSs9AnyObject", "dateByAddingComponents"]
+- !private ["PSs9AnyObject", "dateFormat"]
+- !private ["PSs9AnyObject", "dateStyle"]
+- !private ["PSs9AnyObject", "day"]
+- ["PSs9AnyObject", "daysSinceEpoch"]
+- !private ["PSs9AnyObject", "doesRelativeDateFormatting"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "secondsFromGMT"]
+- !private ["PSs9AnyObject", "systemTimeZone"]
+- !private ["PSs9AnyObject", "timeIntervalSince1970"]
+- !private ["PSs9AnyObject", "timeStyle"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["PSs11CVarArgType", "Int64"]
+- !private ["PSs11CVarArgType", "NSCalendar"]
+- !private ["PSs11CVarArgType", "NSCalendarOptions"]
+- !private ["PSs11CVarArgType", "NSDateComponents"]
+- !private ["PSs11CVarArgType", "NSTimeInterval"]
+- !private ["PSs11CVarArgType", "NSTimeZone"]
+- ["PSs11CVarArgType", "addDays"]
+- !private ["PSs11CVarArgType", "currentCalendar"]
+- !private ["PSs11CVarArgType", "dateByAddingComponents"]
+- !private ["PSs11CVarArgType", "dateFormat"]
+- !private ["PSs11CVarArgType", "dateStyle"]
+- !private ["PSs11CVarArgType", "day"]
+- !private ["PSs11CVarArgType", "days"]
+- ["PSs11CVarArgType", "daysSinceEpoch"]
+- !private ["PSs11CVarArgType", "doesRelativeDateFormatting"]
+- !private ["PSs11CVarArgType", "hours"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "minutes"]
+- !private ["PSs11CVarArgType", "secondsFromGMT"]
+- !private ["PSs11CVarArgType", "systemTimeZone"]
+- !private ["PSs11CVarArgType", "timeIntervalSince1970"]
+- !private ["PSs11CVarArgType", "timeStyle"]
+- !private ["PSs10Comparable", "Int64"]
+- !private ["PSs10Comparable", "days"]
+- !private ["PSs10Comparable", "hours"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "minutes"]
+- !private ["PSs23CustomStringConvertible", "Int64"]
+- !private ["PSs23CustomStringConvertible", "NSCalendar"]
+- !private ["PSs23CustomStringConvertible", "NSCalendarOptions"]
+- !private ["PSs23CustomStringConvertible", "NSDateComponents"]
+- !private ["PSs23CustomStringConvertible", "NSTimeInterval"]
+- !private ["PSs23CustomStringConvertible", "NSTimeZone"]
+- ["PSs23CustomStringConvertible", "addDays"]
+- !private ["PSs23CustomStringConvertible", "currentCalendar"]
+- !private ["PSs23CustomStringConvertible", "dateByAddingComponents"]
+- !private ["PSs23CustomStringConvertible", "dateFormat"]
+- !private ["PSs23CustomStringConvertible", "dateStyle"]
+- !private ["PSs23CustomStringConvertible", "day"]
+- !private ["PSs23CustomStringConvertible", "days"]
+- ["PSs23CustomStringConvertible", "daysSinceEpoch"]
+- !private ["PSs23CustomStringConvertible", "doesRelativeDateFormatting"]
+- !private ["PSs23CustomStringConvertible", "hours"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "minutes"]
+- !private ["PSs23CustomStringConvertible", "secondsFromGMT"]
+- !private ["PSs23CustomStringConvertible", "systemTimeZone"]
+- !private ["PSs23CustomStringConvertible", "timeIntervalSince1970"]
+- !private ["PSs23CustomStringConvertible", "timeStyle"]
+- ["Sd", "Int64"]
+- ["Sd", "days"]
+- ["Sd", "hours"]
+- !private ["Sd", "init"]
+- ["Sd", "minutes"]
+- !private ["PSs9Equatable", "Int64"]
+- !private ["PSs9Equatable", "NSCalendar"]
+- !private ["PSs9Equatable", "NSCalendarOptions"]
+- !private ["PSs9Equatable", "NSDateComponents"]
+- !private ["PSs9Equatable", "NSTimeInterval"]
+- !private ["PSs9Equatable", "NSTimeZone"]
+- ["PSs9Equatable", "addDays"]
+- !private ["PSs9Equatable", "currentCalendar"]
+- !private ["PSs9Equatable", "dateByAddingComponents"]
+- !private ["PSs9Equatable", "dateFormat"]
+- !private ["PSs9Equatable", "dateStyle"]
+- !private ["PSs9Equatable", "day"]
+- !private ["PSs9Equatable", "days"]
+- ["PSs9Equatable", "daysSinceEpoch"]
+- !private ["PSs9Equatable", "doesRelativeDateFormatting"]
+- !private ["PSs9Equatable", "hours"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "minutes"]
+- !private ["PSs9Equatable", "secondsFromGMT"]
+- !private ["PSs9Equatable", "systemTimeZone"]
+- !private ["PSs9Equatable", "timeIntervalSince1970"]
+- !private ["PSs9Equatable", "timeStyle"]
+- !private ["PSs23FloatLiteralConvertible", "Int64"]
+- !private ["PSs23FloatLiteralConvertible", "days"]
+- !private ["PSs23FloatLiteralConvertible", "hours"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs23FloatLiteralConvertible", "minutes"]
+- !private ["PSs17FloatingPointType", "Int64"]
+- !private ["PSs17FloatingPointType", "days"]
+- !private ["PSs17FloatingPointType", "hours"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs17FloatingPointType", "minutes"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "Int64"]
+- !private ["PSs8Hashable", "NSCalendar"]
+- !private ["PSs8Hashable", "NSCalendarOptions"]
+- !private ["PSs8Hashable", "NSDateComponents"]
+- !private ["PSs8Hashable", "NSTimeInterval"]
+- !private ["PSs8Hashable", "NSTimeZone"]
+- ["PSs8Hashable", "addDays"]
+- !private ["PSs8Hashable", "currentCalendar"]
+- !private ["PSs8Hashable", "dateByAddingComponents"]
+- !private ["PSs8Hashable", "dateFormat"]
+- !private ["PSs8Hashable", "dateStyle"]
+- !private ["PSs8Hashable", "day"]
+- !private ["PSs8Hashable", "days"]
+- ["PSs8Hashable", "daysSinceEpoch"]
+- !private ["PSs8Hashable", "doesRelativeDateFormatting"]
+- !private ["PSs8Hashable", "hours"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "minutes"]
+- !private ["PSs8Hashable", "secondsFromGMT"]
+- !private ["PSs8Hashable", "systemTimeZone"]
+- !private ["PSs8Hashable", "timeIntervalSince1970"]
+- !private ["PSs8Hashable", "timeStyle"]
+- !private ["VSs5Int64", "init"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "Int64"]
+- !private ["PSs25IntegerLiteralConvertible", "days"]
+- !private ["PSs25IntegerLiteralConvertible", "hours"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "minutes"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["CSo10NSCalendar", "currentCalendar"]
+- !private ["CSo10NSCalendar", "dateByAddingComponents"]
+- !private ["VSC17NSCalendarOptions", "init"]
+- !private ["PSo8NSCoding", "NSCalendar"]
+- !private ["PSo8NSCoding", "NSCalendarOptions"]
+- !private ["PSo8NSCoding", "NSDateComponents"]
+- !private ["PSo8NSCoding", "NSTimeInterval"]
+- !private ["PSo8NSCoding", "NSTimeZone"]
+- !private ["PSo8NSCoding", "currentCalendar"]
+- !private ["PSo8NSCoding", "dateByAddingComponents"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- !private ["PSo8NSCoding", "dateStyle"]
+- !private ["PSo8NSCoding", "day"]
+- !private ["PSo8NSCoding", "doesRelativeDateFormatting"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "secondsFromGMT"]
+- !private ["PSo8NSCoding", "systemTimeZone"]
+- !private ["PSo8NSCoding", "timeIntervalSince1970"]
+- !private ["PSo8NSCoding", "timeStyle"]
+- !private ["PSo9NSCopying", "NSCalendar"]
+- !private ["PSo9NSCopying", "NSCalendarOptions"]
+- !private ["PSo9NSCopying", "NSDateComponents"]
+- !private ["PSo9NSCopying", "NSTimeInterval"]
+- !private ["PSo9NSCopying", "NSTimeZone"]
+- !private ["PSo9NSCopying", "currentCalendar"]
+- !private ["PSo9NSCopying", "dateByAddingComponents"]
+- !private ["PSo9NSCopying", "dateFormat"]
+- !private ["PSo9NSCopying", "dateStyle"]
+- !private ["PSo9NSCopying", "day"]
+- !private ["PSo9NSCopying", "doesRelativeDateFormatting"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "secondsFromGMT"]
+- !private ["PSo9NSCopying", "systemTimeZone"]
+- !private ["PSo9NSCopying", "timeIntervalSince1970"]
+- !private ["PSo9NSCopying", "timeStyle"]
+- ["CSo6NSDate", "Int"]
+- ["CSo6NSDate", "Int64"]
+- !private ["CSo6NSDate", "NSCalendar"]
+- !private ["CSo6NSDate", "NSCalendarOptions"]
+- ["CSo6NSDate", "NSDate"]
+- !private ["CSo6NSDate", "NSDateComponents"]
+- !private ["CSo6NSDate", "NSTimeInterval"]
+- !private ["CSo6NSDate", "NSTimeZone"]
+- ["CSo6NSDate", "addDays"]
+- ["CSo6NSDate", "daysSinceEpoch"]
+- !private ["CSo6NSDate", "timeIntervalSince1970"]
+- !private ["CSo16NSDateComponents", "day"]
+- !private ["CSo16NSDateComponents", "init"]
+- ["CSo15NSDateFormatter", "Bool"]
+- ["CSo15NSDateFormatter", "NSDateFormatterStyle"]
+- ["CSo15NSDateFormatter", "String"]
+- !private ["CSo15NSDateFormatter", "dateFormat"]
+- !private ["CSo15NSDateFormatter", "dateStyle"]
+- !private ["CSo15NSDateFormatter", "doesRelativeDateFormatting"]
+- ["CSo15NSDateFormatter", "init"]
+- !private ["CSo15NSDateFormatter", "timeStyle"]
+- ["CSo11NSFormatter", "Bool"]
+- ["CSo11NSFormatter", "NSDateFormatterStyle"]
+- ["CSo11NSFormatter", "String"]
+- !private ["CSo11NSFormatter", "dateFormat"]
+- !private ["CSo11NSFormatter", "dateStyle"]
+- !private ["CSo11NSFormatter", "doesRelativeDateFormatting"]
+- ["CSo11NSFormatter", "init"]
+- !private ["CSo11NSFormatter", "timeStyle"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "Int64"]
+- !private ["CSo8NSObject", "NSCalendar"]
+- !private ["CSo8NSObject", "NSCalendarOptions"]
+- ["CSo8NSObject", "NSDate"]
+- !private ["CSo8NSObject", "NSDateComponents"]
+- ["CSo8NSObject", "NSDateFormatterStyle"]
+- !private ["CSo8NSObject", "NSTimeInterval"]
+- !private ["CSo8NSObject", "NSTimeZone"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "addDays"]
+- !private ["CSo8NSObject", "currentCalendar"]
+- !private ["CSo8NSObject", "dateByAddingComponents"]
+- !private ["CSo8NSObject", "dateFormat"]
+- !private ["CSo8NSObject", "dateStyle"]
+- !private ["CSo8NSObject", "day"]
+- ["CSo8NSObject", "daysSinceEpoch"]
+- !private ["CSo8NSObject", "doesRelativeDateFormatting"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "secondsFromGMT"]
+- !private ["CSo8NSObject", "systemTimeZone"]
+- !private ["CSo8NSObject", "timeIntervalSince1970"]
+- !private ["CSo8NSObject", "timeStyle"]
+- !private ["PSo16NSObjectProtocol", "NSCalendar"]
+- !private ["PSo16NSObjectProtocol", "NSCalendarOptions"]
+- !private ["PSo16NSObjectProtocol", "NSDateComponents"]
+- !private ["PSo16NSObjectProtocol", "NSTimeInterval"]
+- !private ["PSo16NSObjectProtocol", "NSTimeZone"]
+- ["PSo16NSObjectProtocol", "addDays"]
+- !private ["PSo16NSObjectProtocol", "currentCalendar"]
+- !private ["PSo16NSObjectProtocol", "dateByAddingComponents"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- !private ["PSo16NSObjectProtocol", "dateStyle"]
+- !private ["PSo16NSObjectProtocol", "day"]
+- ["PSo16NSObjectProtocol", "daysSinceEpoch"]
+- !private ["PSo16NSObjectProtocol", "doesRelativeDateFormatting"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "secondsFromGMT"]
+- !private ["PSo16NSObjectProtocol", "systemTimeZone"]
+- !private ["PSo16NSObjectProtocol", "timeIntervalSince1970"]
+- !private ["PSo16NSObjectProtocol", "timeStyle"]
+- !private ["PSo14NSSecureCoding", "NSCalendar"]
+- !private ["PSo14NSSecureCoding", "NSCalendarOptions"]
+- !private ["PSo14NSSecureCoding", "NSDateComponents"]
+- !private ["PSo14NSSecureCoding", "NSTimeInterval"]
+- !private ["PSo14NSSecureCoding", "NSTimeZone"]
+- !private ["PSo14NSSecureCoding", "currentCalendar"]
+- !private ["PSo14NSSecureCoding", "dateByAddingComponents"]
+- !private ["PSo14NSSecureCoding", "day"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "secondsFromGMT"]
+- !private ["PSo14NSSecureCoding", "systemTimeZone"]
+- !private ["PSo14NSSecureCoding", "timeIntervalSince1970"]
+- !private ["CSo10NSTimeZone", "secondsFromGMT"]
+- !private ["CSo10NSTimeZone", "systemTimeZone"]
+- !private ["PSs13OptionSetType", "init"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs16RawRepresentable", "init"]
+- !private ["PSs14SetAlgebraType", "init"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "Int64"]
+- !private ["PSs16SignedNumberType", "days"]
+- !private ["PSs16SignedNumberType", "hours"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs16SignedNumberType", "minutes"]
+- !private ["PSs10Strideable", "Int64"]
+- !private ["PSs10Strideable", "days"]
+- !private ["PSs10Strideable", "hours"]
+- !private ["PSs10Strideable", "init"]
+- !private ["PSs10Strideable", "minutes"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "Int64"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "days"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "hours"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "minutes"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Int64"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "days"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "hours"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "minutes"]
+- !private ["PSs19_CVarArgAlignedType", "Int64"]
+- !private ["PSs19_CVarArgAlignedType", "days"]
+- !private ["PSs19_CVarArgAlignedType", "hours"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs19_CVarArgAlignedType", "minutes"]
+- !private ["PSs22_CVarArgPassedAsDouble", "Int64"]
+- !private ["PSs22_CVarArgPassedAsDouble", "days"]
+- !private ["PSs22_CVarArgPassedAsDouble", "hours"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "minutes"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "Int64"]
+- !private ["PSs21_ObjectiveCBridgeable", "days"]
+- !private ["PSs21_ObjectiveCBridgeable", "hours"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "minutes"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs12_Reflectable", "Int64"]
+- !private ["PSs12_Reflectable", "NSCalendar"]
+- !private ["PSs12_Reflectable", "NSCalendarOptions"]
+- !private ["PSs12_Reflectable", "NSDateComponents"]
+- !private ["PSs12_Reflectable", "NSTimeInterval"]
+- !private ["PSs12_Reflectable", "NSTimeZone"]
+- !private ["PSs12_Reflectable", "days"]
+- !private ["PSs12_Reflectable", "hours"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "minutes"]
+- !private ["PSs12_Reflectable", "timeIntervalSince1970"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "Int64"]
+- !private ["PSs11_Strideable", "days"]
+- !private ["PSs11_Strideable", "hours"]
+- !private ["PSs11_Strideable", "init"]
+- !private ["PSs11_Strideable", "minutes"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "Sd"
+- "PSs9Equatable"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "VSs5Int64"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "CSo10NSCalendar"
+- !private "VSC17NSCalendarOptions"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo6NSDate"
+- !private "CSo16NSDateComponents"
+- "CSo15NSDateFormatter"
+- "CSo11NSFormatter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo10NSTimeZone"
+- !private "PSs13OptionSetType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs16RawRepresentable"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/mitchcurrie/Documents/Development/MCSwift/MCSwift/MCSwift.h"
+- "/Users/mitchcurrie/Documents/Development/MCSwift/build/MCSwift.build/Release-iphoneos/MCSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "0055c0a641eabdd982a19fc33fd0d7c9"

@@ -9,22 +9,29 @@
 import Foundation
 import UIKit
 
-//UIKit
-extension UIScrollView {
-    var pageNumber:Int {
+// MARK: - UIScrollView Conveniences
+public extension UIScrollView {
+    /**
+    Checks the scroll position of the contentView, with respect to our current frame and assumes pages are the viewport width.
+    Value is then squashed between this, so that it will never be off page during those times you can 'peak' the page out of bounds.
+    */
+
+    public var pageNumber:Int {
         let numberPages = Int(self.contentSize.width / self.frame.size.width)
         return Int(round(self.contentOffset.x/self.frame.size.width)).squashBetween(0, upper: numberPages - 1)
     }
 }
 
-/**
-This will check that either we are a viewcontroller of this type and return the optional cast
-OR
-This will check that if we are a naivgation controller, that our top view controller passes the same test
-Thus abstracting whether it is the view controller of a navigation controller or view controller itself comforms to T
-*/
-extension UIViewController {
-    func firstViewController<T where T: UIViewController>(type: T.Type) -> T?{
+// UIViewController: - UIScrollView Conveniences
+public extension UIViewController {
+    /**
+    Evaluate ourself if a UIViewController( or our topViewController if a UINavigationController) to be of type T.
+    
+    - parameter type: The class of the ViewController you wish to search for.
+    
+    - returns: An optional value, containing the ViewController if it is either us or as a navigation controller our topViewController.
+    */
+    public func firstViewController<T where T: UIViewController>(type: T.Type) -> T?{
         return ( (self as? UINavigationController)?.topViewController as? T) ?? (self as? T)
     }
 }
