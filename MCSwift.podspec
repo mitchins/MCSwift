@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MCSwift"
-  s.version      = "0.1.0"
+  s.version      = "0.3.0"
   s.summary      = "A collection of simple utilities and extensions for Swift."
   s.description  = <<-DESC
                    A longer description of MCSwift in Markdown format.

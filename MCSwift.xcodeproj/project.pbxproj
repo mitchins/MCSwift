@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9EF74121BDD9E87008FB376 /* DateTime_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF740F1BDD9E87008FB376 /* DateTime_Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		B9EF74131BDD9E87008FB376 /* Numbers_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74101BDD9E87008FB376 /* Numbers_Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		B9EF74141BDD9E87008FB376 /* UIKit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74111BDD9E87008FB376 /* UIKit_Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		B9EF74181BDD9EA4008FB376 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74151BDD9EA4008FB376 /* DateTime.swift */; settings = {ASSET_TAGS = (); }; };
-		B9EF74191BDD9EA4008FB376 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74161BDD9EA4008FB376 /* Number.swift */; settings = {ASSET_TAGS = (); }; };
-		B9EF741A1BDD9EA4008FB376 /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74171BDD9EA4008FB376 /* UIKit.swift */; settings = {ASSET_TAGS = (); }; };
+		B9EF74121BDD9E87008FB376 /* DateTime_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF740F1BDD9E87008FB376 /* DateTime_Tests.swift */; };
+		B9EF74131BDD9E87008FB376 /* Numbers_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74101BDD9E87008FB376 /* Numbers_Tests.swift */; };
+		B9EF74141BDD9E87008FB376 /* UIKit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74111BDD9E87008FB376 /* UIKit_Tests.swift */; };
+		B9EF74181BDD9EA4008FB376 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74151BDD9EA4008FB376 /* DateTime.swift */; };
+		B9EF74191BDD9EA4008FB376 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74161BDD9EA4008FB376 /* Number.swift */; };
+		B9EF741A1BDD9EA4008FB376 /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF74171BDD9EA4008FB376 /* UIKit.swift */; };
 		B9FCDC141BC7379500A484F3 /* MCSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FCDC131BC7379500A484F3 /* MCSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9FCDC1B1BC7379500A484F3 /* MCSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FCDC101BC7379500A484F3 /* MCSwift.framework */; settings = {ASSET_TAGS = (); }; };
+		B9FCDC1B1BC7379500A484F3 /* MCSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FCDC101BC7379500A484F3 /* MCSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,7 +158,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Mitch Currie";
 				TargetAttributes = {
 					B9FCDC0F1BC7379500A484F3 = {
@@ -244,13 +244,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -292,13 +300,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -318,6 +334,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -330,6 +347,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -341,6 +359,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -349,6 +368,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -359,6 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mitchellcurrie.MCSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

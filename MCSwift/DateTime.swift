@@ -9,30 +9,30 @@
 import Foundation
 
 // MARK: - NSDate Convenience
-public extension NSDate {
+public extension Date {
     /**
-    Generate a new date based adding (or subtracting) the number of days passed to it.
-    
-    - parameter days: The positive or negative number of days to add to the current receiver.
-    
-    - returns: An entirely new date who is shifted by the number of days supplied.
-    */
-    public func addDays(days: Int) -> NSDate {
-        let components = NSDateComponents()
+     Generate a new date based adding (or subtracting) the number of days passed to it.
+     
+     - parameter days: The positive or negative number of days to add to the current receiver.
+     
+     - returns: An entirely new date who is shifted by the number of days supplied.
+     */
+    public func addDays(days: Int) -> Date {
+        var components = DateComponents()
         components.day = days
         //In my opinion, give an NSDate, and an integer number of days, this should never fail unless the framework dies
-        return NSCalendar.currentCalendar().dateByAddingComponents(components, toDate: self, options: NSCalendarOptions(rawValue:0) )!
+        return Calendar.current.date(byAdding: components, to: self)!
     }
     
     /// Converts the NSDate to the number of (whole) days since the epoch.
     var daysSinceEpoch: Int64 {
-        let timeInterval = self.timeIntervalSince1970 + NSTimeInterval(NSTimeZone.systemTimeZone().secondsFromGMT)
+        let timeInterval = self.timeIntervalSince1970 + Double(TimeZone.current.secondsFromGMT())
         return timeInterval.days
     }
 }
 
 // MARK: - NSTimeInterval Convenience
-public extension NSTimeInterval {
+public extension TimeInterval {
     /// Returns the time interval as the number of (whole) minutes. (Does not care about hours or days)
     public var minutes: Int64 {
         return Int64(self)/60
@@ -50,14 +50,14 @@ public extension NSTimeInterval {
 }
 
 // MARK: - NSDateFormatter Convenience
-public extension NSDateFormatter {
+public extension DateFormatter {
     /**
-    Creates an NSDateFormatter using a completely custom date format string.
-    
-    - parameter dateFormat: Value to be used by the dateFormat property.
-    - parameter isRelative: Value to be used by doesRelativeDateFormatting property. (defaults to false)
-    
-    */
+     Creates an NSDateFormatter using a completely custom date format string.
+     
+     - parameter dateFormat: Value to be used by the dateFormat property.
+     - parameter isRelative: Value to be used by doesRelativeDateFormatting property. (defaults to false)
+     
+     */
     public convenience init(dateFormat: String, isRelative: Bool = false) {
         self.init()
         self.dateFormat = dateFormat
@@ -65,17 +65,18 @@ public extension NSDateFormatter {
     }
     
     /**
-    Creates an NSDateFormatter using the standard date and time styles.
-    
-    - parameter dateStyle:  Value to be used by dateStyle property.
-    - parameter timeStyle:  Value to be used by timeStyle property.
-    - parameter isRelative: Value to be used by doesRelativeDateFormatting property. (defaults to false)
-    
-    */
-    public convenience init(dateStyle: NSDateFormatterStyle, timeStyle: NSDateFormatterStyle, isRelative: Bool = false) {
+     Creates an NSDateFormatter using the standard date and time styles.
+     
+     - parameter dateStyle:  Value to be used by dateStyle property.
+     - parameter timeStyle:  Value to be used by timeStyle property.
+     - parameter isRelative: Value to be used by doesRelativeDateFormatting property. (defaults to false)
+     
+     */
+    public convenience init(dateStyle: DateFormatter.Style, timeStyle: DateFormatter.Style, isRelative: Bool = false) {
         self.init()
         self.dateStyle = dateStyle
         self.timeStyle = timeStyle
         self.doesRelativeDateFormatting = isRelative
     }
 }
+
